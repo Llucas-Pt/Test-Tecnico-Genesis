@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gaegu&family=Gloria+Hallelujah&family=Nanum+Brush+Script&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+    </style>
+    <title>Cadastro de Pacientes</title>
+</head>
+<body>
+    <div id="corpo">
+        <div id="lateral">
+            <h2>Sistema de Pacientes</h2>
+            <div id="Home">
+                <br>
+                <a href=""> <img src="./icones/Home.png" alt="" width="15px" height="15">Home</a>
+            </div>
+        </div>
+        <br>
+        <div id="SegundoCorpo">
+            <div id="Cadastro">
+                <form id="forme" method="post">
+                    <input type="text" name="Nome" id="Nome" placeholder="Nome">
+                    <input type="date" name="DataNascimento" id="DataNascimento" placeholder="Data de Nascimento">
+                    <select name="Sexo" id="Sexo">
+                        <option value="">Selecione o Sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+
+                 <input type="text" name="Visitas" id="Visitas" placeholder="Digite as datas das suas ultimas visitas ao médico"> 
+                </form>
+                <br> 
+                <div id="botoes">
+                    <button id="btnInserir" type="submit" form="forme" value="Cadastrar">Inserir</button>
+                
+                </div> 
+            </div>
+            <br>
+            <div id="funcionarios">
+            </div>
+        </div>
+    </div>
+    <script src="Cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+INSTALAÇÃO E CONFIGURAÇÃO PARA FUNCIONAMENTO DO CÓDIGO
+
+
+#Instale o Node.js:
+
+.Baixe e instale a versão mais recente do Node.js: https://nodejs.org/en
+
+#Instale os pacotes necessários:
+
+.npm install express sequelize sqlite3 express-xml-bodyparser
+.npm install --save-dev nodemon
+
+#Instale o SQLiteStudio:
+
+.Para visualizar e interagir com o banco de dados SQLite, baixe e instale o SQLiteStudio:
+.Site Oficial: https://sqlitestudio.pl/
+
+----------- || -----------
+
+MANUAL DE USO
+
+#Inicie o servidor:
+
+.Execute o comando: "npm run dev" ou "node ./Servidor
+
+#Acesse o site HTML:
+
+.Abra o navegador e acesse: http://localhost:3001/Cadastro.html
+
+#Abra o SQLiteStudio:
+
+.Navegue até o diretório "Clinux" e abra o SQLiteStudio a partir daí.
+
+----------- || -----------
+
+PROCESSO DE USO
+
+#Preencha o formulário:
+
+.Preencha todos os campos do formulário, incluindo Nome do Paciente, Data de Nascimento, Sexo e a Data das Últimas Visitas.
+
+#Enviar os dados:
+
+.Após preencher todos os campos, clique em "Inserir" para enviar a requisição POST ao servidor.
+
+#Verificar os dados no SQLiteStudio:
+
+.Abra o SQLiteStudio.
+.Conecte-se ao banco de dados database.sqlite que está no diretório do projeto.
+.Execute uma consulta na tabela Pacientes para verificar se os dados foram inseridos corretamente.
+
