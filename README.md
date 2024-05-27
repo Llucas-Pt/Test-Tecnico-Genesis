@@ -26,7 +26,7 @@
 <p>Abra o navegador e acesse: http://localhost:3001/Cadastro.html</p>
 
 <h2>#Abra o SQLiteStudio:</h2>
-<p>Navegue até o diretório "Clinux" e abra o SQLiteStudio a partir daí.</p>
+<p>No diretório raiz, abra o arquivo "database.sqlite" utilizando o SQLiteStudio.</p>
 
 <br>
 <br>
