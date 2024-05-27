@@ -20,7 +20,7 @@
 <h1>MANUAL DE USO</h1>
 
 <h2>#Inicie o servidor:</h2>
-<p>Execute o comando: "npm run dev" ou "node ./Servidor</p>
+<p>Execute o comando: "npm run dev" ou "node ./Servidor"</p>
 
 <h2>#Acesse o site HTML:</h2>
 <p>Abra o navegador e acesse: http://localhost:3001/Cadastro.html</p>
